@@ -1,6 +1,6 @@
 {
   "name": "@gcba/obelisco-v2",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "private": false,
   "main": "dist/styles.css",
@@ -23,7 +23,8 @@
     "lint:app": "cd app && npm run lint",
     "lint-fix:app": "cd app && npm run lint:format",
     "prettier-check:app": "cd app && npm run prettier:check",
-    "prettier:app": "cd app && npm run prettier:format"
+    "prettier:app": "cd app && npm run prettier:format",
+    "semantic-release": "semantic-release --branches main"
   },
   "keywords": [],
   "author": "",
@@ -38,7 +39,7 @@
     "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-standard": "^36.0.1",
     "stylelint-config-standard-scss": "^13.1.0",
-    "semantic-release": "^24.0.0",
+    "semantic-release": "^24.2.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^10.1.3",
